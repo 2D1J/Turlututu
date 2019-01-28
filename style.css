@@ -8,6 +8,10 @@
 	border-color: grey;
 }
 
+.elem_main_menu{
+	margin-left: 20%;
+}
+
 #avatar{
 	height: 200px;
 	width: auto;
@@ -42,7 +46,7 @@ presentation.section{
 }
 
 .sponsors{
-	background-color: #B2B2B2;
+	background-color: #ccccb3;
 	height: 250px;
 	padding: 20px;
 }
@@ -84,7 +88,7 @@ nav{
 
 button#start{
 	background-color: orange;
-  	border-size: 10Px;
+  	border-size: 20Px;
   	border-color: white;
   	border-radius: 7px;
   	color: white;
@@ -93,6 +97,11 @@ button#start{
   	text-decoration: none;
   	display: inline-block;
   	font-size: 16px;
+  }
+
+#titre_logo{
+	display: inline-block;
+	height: inherit;
 }
 
 .bottom_menu{
@@ -147,8 +156,8 @@ img{
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 li {
@@ -157,7 +166,6 @@ li {
 
 nav{
 	padding: 15px;
-	overflow-wrap: no-wrap;
 }
 
 
@@ -172,5 +180,24 @@ a{
 #Login{
 	width: 100%;
 	position: relative;
-	left: 100%;
+	float: right;
+}
+
+.sponsors img{
+	margin-left: 30px;
+	align-items: center;
+}
+
+caption img{
+	display: inline-block;
+	height: 100%;
+
+}
+
+#logosite{
+	display: inline-block;
+	position: absolute;
+	height: 100px;
+	width: auto;
+	margin-left: 50%;
 }
