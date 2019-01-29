@@ -15,6 +15,25 @@
 
 }
 
+#header-bleu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 30px;
+	margin-right: 380px;
+}
+
+#titre_logo{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+#logosite{
+	height: 100px;
+	width: auto;
+}
+
 #Login{
 
 }
@@ -87,6 +106,7 @@ table.h3{
 header{
 	background-color: #339FFF;
 	height: 350px;
+	width: auto;
 }
 
 nav{
@@ -105,12 +125,8 @@ button#start{
   	text-decoration: none;
   	display: inline-block;
   	font-size: 16px;
+  	max-height: 50px;
   }
-
-#titre_logo{
-	display: flex;
-	justify-content: flex-start;
-}
 
 .bottom_menu{
 	height: 150px;
@@ -159,7 +175,7 @@ button#API{
 
 img{
 	height: auto;
-	width: 100px;
+	width: 50px;
 }
 
 ul {
@@ -205,10 +221,3 @@ caption img{
 
 }
 
-#logosite{
-	display: inline-block;
-	position: absolute;
-	height: 100px;
-	width: auto;
-	margin-left: 50%;
-}
