@@ -109,7 +109,7 @@ button#start{
 
 #titre_logo{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .bottom_menu{
@@ -170,6 +170,7 @@ ul {
 
 li {
 	display: inline;
+	margin-left: 30px;
 }
 
 nav{
@@ -185,9 +186,17 @@ a{
 	text-decoration: none;
 }
 
+.sponsors{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .sponsors img{
-	margin-left: 30px;
-	align-items: center;
+	height: 70px;
+	width: auto;
+	margin: 20px;
 }
 
 caption img{
