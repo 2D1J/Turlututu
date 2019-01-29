@@ -34,9 +34,6 @@
 	width: auto;
 }
 
-#Login{
-
-}
 
 #avatar{
 	height: 200px;
@@ -85,13 +82,6 @@ body{
 	max-height: 100%;
 	max-width: 100%;
 	font-family: roboto condensed;
-}
-
-footer{
-	background-color: black;
-	color: white;
-	height: 15%;
-	display: flex;
 }
 
 table.presentation{
@@ -221,3 +211,15 @@ caption img{
 
 }
 
+.footer_menu{
+	background-color: black;
+	color: white;
+	height: 15%;
+	display: flex;
+}
+
+footer nav{
+	display: inline-flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
