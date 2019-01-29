@@ -2,14 +2,21 @@
 	background-color: black;
 	color: white;
 	height: 5%;
-	word-spacing: 10px;
 	border-spacing: 5px;
 	border-left: 2px;
 	border-color: grey;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .elem_main_menu{
-	margin-left: 20%;
+	margin-left: 15px;
+
+}
+
+#Login{
+
 }
 
 #avatar{
@@ -65,6 +72,7 @@ footer{
 	background-color: black;
 	color: white;
 	height: 15%;
+	display: flex;
 }
 
 table.presentation{
@@ -175,12 +183,6 @@ table{
 
 a{
 	text-decoration: none;
-}
-
-#Login{
-	width: 100%;
-	position: relative;
-	float: right;
 }
 
 .sponsors img{
